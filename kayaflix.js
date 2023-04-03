@@ -1,4 +1,4 @@
-console.log("kayaflix")
+console.log("kayaflix-1")
 R7xOY[623438] = (function ()
 {
 	var b67 = 2;
@@ -43925,6 +43925,7 @@ R7xOY[949] = (function (b7W)
 				};
 				l.prototype.appendBuffer = function (u, x)
 				{
+					console.log(u,x)
 					!x || x.Hc ? this.Kpa(u, x) : this.H8(u, x);
 					return !0;
 				};
@@ -94717,7 +94718,7 @@ R7xOY[949] = (function (b7W)
 						};
 						c.prototype.appendBuffer = function (p)
 						{
-							console.log(p)
+							// null buffer
 							if (p instanceof ArrayBuffer) return k.call(this, p);
 							if (p instanceof h) return this.H8(p.JCb);
 							l(!1);
