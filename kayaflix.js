@@ -43923,10 +43923,12 @@ R7xOY[949] = (function (b7W)
 					}
 					else this.log.info("No SourceBuffer");
 				};
-				console.log(l)
 				l.prototype.appendBuffer = function (u, x)
 				{
-					console.log(u,x)
+					console.log({
+						u: URL.createObjectURL(new Blob([u],{type:"video/mp4"})),
+						x: URL.createObjectURL(new Blob([x],{type:"video/mp4"}))
+					})
 					!x || x.Hc ? this.Kpa(u, x) : this.H8(u, x);
 					return !0;
 				};
