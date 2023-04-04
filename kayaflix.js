@@ -1,4 +1,4 @@
-console.log("kayaflix-5")
+console.log("kayaflix-6")
 R7xOY[623438] = (function ()
 {
 	var b67 = 2;
@@ -77121,7 +77121,7 @@ R7xOY[949] = (function (b7W)
 									Tb: m().pf(N)
 								});
 							}
-							else(L.mediaKeys = new mb.WebKitMediaKeys(O), L.context.ea ? (L.log.trace("LICENSE: calling setmediakeys on video element"), L.context.ea.webkitSetMediaKeys(L.mediaKeys)) : (I(), L.Pq = new D.FD(), L.Pq.addEventListener("sourceopen", J), L.url = URL.createObjectURL(L.Pq), L.context.ea.src = L.url), M(
+							else(L.mediaKeys = new mb.WebKitMediaKeys(O), L.context.ea ? (L.log.trace("LICENSE: calling setmediakeys on video element"), L.context.ea.webkitSetMediaKeys(L.mediaKeys)) : (I(), L.Pq = new D.FD(), L.Pq.addEventListener("sourceopen", J), L.url = URL.createObjectURL(L.Pq), console.log(L.url, L.Pq), L.context.ea.src = L.url), M(
 							{
 								ja: !0,
 								mediaKeys: L.mediaKeys
@@ -144043,7 +144043,7 @@ R7xOY[949] = (function (b7W)
 							{
 								try
 								{
-									console.log("__source_buffer", p, p.appendBuffer);
+									// null
 									t.addSourceBuffer(p);
 									q.log.trace("addSourceBuffer succeeded for " + p);
 									w(!0);
