@@ -1,4 +1,4 @@
-console.log("kayaflix-4")
+console.log("kayaflix-5")
 R7xOY[623438] = (function ()
 {
 	var b67 = 2;
@@ -43863,7 +43863,6 @@ R7xOY[949] = (function (b7W)
 					this.Amb("append", u);
 					x = x && x.Qw / 1E3;
 					(0, p.Pa)(x) && this.Jd.timestampOffset !== x && (!1, this.Jd.timestampOffset = x);
-					console.log(u, URL.createObjectURL(new Blob([u],{type:"video/mp4"})));
 					this.Jd.appendBuffer(u);
 					!1;
 					this.j7.set(!0);
@@ -144044,6 +144043,7 @@ R7xOY[949] = (function (b7W)
 							{
 								try
 								{
+									console.log("__source_buffer", p, p.appendBuffer);
 									t.addSourceBuffer(p);
 									q.log.trace("addSourceBuffer succeeded for " + p);
 									w(!0);
