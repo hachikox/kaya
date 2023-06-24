@@ -1,3 +1,6 @@
+// media.discordapp.net
+// Bypass: Access-Control-Allow-Origin
+
 const { Client, channelLink, TextChannel, AttachmentBuilder } = require("discord.js")
 const fs = require("fs")
 
@@ -35,4 +38,4 @@ client.on("ready", async () => {
 
 })
 
-client.login("MTA3MDk4OTk3NzE0OTc4ODE2MA.GhQdA9.u1i2rQld4vVRG2Moaam3opajR8jR0zumLWPbfI")
+client.login("TOKEN LOGIN")
