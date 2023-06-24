@@ -22,7 +22,7 @@
   // -----------------------------
 
   // test image request:
-  await request("https://cdn.discordapp.com/attachments/1091726049898922024/1122173084259061960/discord.png")
+  await request("https://media.discordapp.net/attachments/1091726049898922024/1122229364214472704/indir.png")
 
   // test binary file request:
   await request("https://cdn.discordapp.com/attachments/1091726049898922024/1122164748650299402/binary.bin")
